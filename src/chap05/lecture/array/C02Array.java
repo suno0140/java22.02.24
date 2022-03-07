@@ -11,6 +11,6 @@ public class C02Array {
 		boolean[] arr6 = new boolean[4]; // 초기값 false
 		
 		String[] arr7 = new String[3]; // 초기값 null (null자체 값으로 생각 or 없다라는 뜻으로해석)
-		
+		System.out.println(arr1);
 	}
 }

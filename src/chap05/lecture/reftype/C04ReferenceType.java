@@ -17,7 +17,7 @@ public class C04ReferenceType {
 		arr1[0] = 7;
 		
 		for(int i = 0; i < arr1.length; i++) {
-			System.out.println(arr1[i]);
+			System.out.print(arr1[i]);
 		}
 		for(int i = 0; i < arr1.length; i++) {
 			System.out.println(arr2[i]);
