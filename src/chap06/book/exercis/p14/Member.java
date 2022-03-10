@@ -1,12 +1,14 @@
 package chap06.book.exercis.p14;
 
 public class Member {
-		// 필드
-	
-		String password;
-		int age;
-		
-		String(name, id){
-			
-		}
+
+	String name;
+	String id;
+	String password;
+	int age;
+	public Member(String name, String id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}	
 }
