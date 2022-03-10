@@ -9,8 +9,10 @@ public class C08Null {
 		
 		String s3 = null; //가리키는 인스턴스(객체)가 없음
 		String[] a3 = new String[3];
-		System.out.println(a3[0]);
-		System.out.println(a3[1]);
-		System.out.println(a3[2]);
+		System.out.println(a3[0]); //null
+		System.out.println(a3[1]); //null
+		System.out.println(a3[2]); //null
+		
+		
 	}
 }

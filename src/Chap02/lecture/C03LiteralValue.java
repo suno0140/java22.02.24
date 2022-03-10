@@ -38,6 +38,6 @@ public class C03LiteralValue {
 		
 		// 논리(boolean) literal (true, false)
 		System.out.println(true);
-		System.out.println(false);?
+		System.out.println(false);
 	}
 }
