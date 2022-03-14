@@ -13,6 +13,9 @@ public class C08Null {
 		System.out.println(a3[1]); //null
 		System.out.println(a3[2]); //null
 		
+		//null인 참조변수 사용
+		System.out.println(a3[0].equals("java"));
+		//NullPointerException프로그램이 더이상 실행되지 않음.
 		
 	}
 }
