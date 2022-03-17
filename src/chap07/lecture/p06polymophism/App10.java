@@ -8,7 +8,7 @@ import chap07.lecture.p99polymophism_class.StreetCat;
 
 public class App10 {
 	public static void main(String[] args) {
-		//instanceof : 이항 연산장
+		//instanceof : 이항 연산자
 		//좌항 : 참조변수, 우항: 타입명
 		//연산결과: boolean, 참조변수가 가리키는 인스턴스가 타입과 일치하면 true, 아니면 false
 	
