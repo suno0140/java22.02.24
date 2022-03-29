@@ -16,7 +16,7 @@ public class App09 {
 		//홀수 element 삭제
 		
 		//while문 사용방법
-		/*
+		
 		int i = 0;
 		while(i < list.size()) {
 			
@@ -26,19 +26,19 @@ public class App09 {
 				continue;
 			}			
 			i++;
-		}*/
+		} 
 		
 		//removeIf 사용방법
 		//list.removeIf(e -> (e % 2)==1);
 		
 		//Iterator 사용
-		Iterator<Integer> iter = list.iterator();
+		/* Iterator<Integer> iter = list.iterator();
 		
 		while(iter.hasNext()) {
 			if(iter.next() % 2 ==1) {
 				iter.remove();
 			}
-		}
+		} */
 		
 		System.out.println(list);
 	}
