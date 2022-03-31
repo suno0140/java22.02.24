@@ -12,7 +12,8 @@ public class App02 {
 		System.out.println(map.size()); //2
 		
 		map.put(new Computer("samsung", "galaxy"), 10);
-		System.out.println(map.size()); //3
+		System.out.println(map.size()); //2 아래클래스에서 재정의 안해주면 3
+		//재정의 해주지 않으면 키 값이 같아도 참조값이 달라서 덮어쓰지 않는다.
 		
 	}
 }
