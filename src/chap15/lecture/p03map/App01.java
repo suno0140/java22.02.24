@@ -56,7 +56,7 @@ public class App01 {
 			System.out.println(entry.getKey() + ":" + entry.getValue());
 		}
 		
-		//이외에도 foreach로 탐색하는방법도 있음
+		//이외에도 forEach로 탐색하는방법도 있음
 		
 		//remove : key로 entry 삭제
 		map.remove("tesla");
